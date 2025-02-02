@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 
 
 router.get('/nombre', (req, res) => {
-    res.json([{ name: 'Bochinche' }, { name: 'María' }]);
+    res.json([{ name: 'Juan' }, { name: 'María' }]);
   });
 
 module.exports = router;
